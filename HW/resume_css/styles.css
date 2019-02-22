@@ -1,0 +1,58 @@
+body {
+  background-color: lightblue;
+}
+h1 {
+  text-align: center;
+  font-family: 'Cinzel', serif;
+}
+a:hover {
+  color: #9580d6;
+  font-weight: 800;
+  text-decoration: none;
+}
+a {
+  text-decoration-line: none;
+}
+li {
+  color: black;
+}
+table {
+  border: 3px solid gray;
+}
+td {
+  border: 3px Solid gray;
+}
+th {
+  border: 3px solid gray;
+}
+.list_titles {
+  color: gray;
+}
+address {
+  text-decoration: underline;
+}
+address:hover{
+  color: #9580d6;
+  font-weight: 800;
+}
+.table_header {
+  color: #9580d6;
+}
+.summary_paragraph {
+  font-family: 'Encode Sans Condensed', sans-serif;
+}
+#profileimage {
+  text-align: center;
+}
+#list_content {
+  font-family: 'Radley', serif;
+}
+#color_we {
+  color: #d680d6;
+}
+#ul_case {
+  text-transform: uppercase;
+}
+#title {
+  text-shadow: 3px 3px 5px black;
+}
