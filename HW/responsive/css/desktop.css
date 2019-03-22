@@ -13,5 +13,38 @@
 
 .grid5 {
   display: grid;
+  justify-content:center;
   grid-template-columns: 200px 200px 200px;
+}
+
+.pgrid {
+  display: grid;
+  grid-template-columns: 500px 500px;
+}
+
+.players {
+  background: #b3e6ff;
+  margin-right: 275px;
+  padding-left: 10px;
+}
+
+.players2 {
+  background: #ff3333;;
+  margin-right: 275px;
+  padding-left: 10px;
+}
+
+.gridschedule {
+  display: grid;
+  grid-template-columns: 125px 125px 125px;
+  justify-content:center;
+}
+
+.mainpage {
+  display: grid;
+  grid-template-columns: 5fr 5fr;
+}
+
+.margg {
+  margin-right: 5px;
 }
