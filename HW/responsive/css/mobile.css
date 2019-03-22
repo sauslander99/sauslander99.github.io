@@ -1,0 +1,13 @@
+.news { grid-template-columns: 5fr 5fr }
+
+.imgsize { width: 150px;
+text-align: center;}
+
+.listspacing {
+  padding: 2px;
+  text-align: center;
+}
+
+.mobilefont { font-size: 20px;}
+
+.navmarg { padding: 10px;}

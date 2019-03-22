@@ -1,0 +1,32 @@
+.grid {display: grid;}
+
+.bgcolor { background: #b3e6ff; }
+
+.title { text-align: center; color: #ff3333;}
+
+.nobull { list-style-type: none;}
+
+.images { text-align: center;}
+
+img { max-width: 100%;}
+
+.font { font-family: 'Noto Sans', sans-serif;
+}
+
+.s1 {
+  padding-left: 5px;
+  padding-right: 5px;
+  margin: 30px;
+}
+
+a:link { text-decoration: none}
+
+.ps {
+  background: #b3e6ff;
+  padding: 10px;
+}
+
+.ps2 {
+  background: #ff4d4d;
+  padding: 10px;
+}

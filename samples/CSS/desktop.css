@@ -1,0 +1,49 @@
+.border { border: 1px solid #000000;}
+.margin10 {
+  margin: 10px;
+}
+.largeslide {
+  max-width: 100%
+}
+.smallslide { display: none;}
+body {
+  background: #666666;
+}
+body, html {
+  padding: 0; margin: 0;
+}
+main {
+  display: block;
+  width: 960px;
+  min-height: 100px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20px;
+  background: white;
+}
+header {
+  text-align: center;
+}
+section {
+  min-height: 100px;
+}
+.rightcolumn {
+  display: block;
+  min-height: 100px;
+  width: 530px;
+  float: right;
+  padding: 10px;
+}
+.leftcolumn {
+  display: block;
+  min-height: 100px;
+  width: 300px;
+  float: left;
+  padding: 10px;
+}
+.clear {
+  clear: both;
+}
+footer {
+  text-align: center;
+}

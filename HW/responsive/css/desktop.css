@@ -1,0 +1,17 @@
+.news { grid-template-columns: 5fr 5fr 5fr 5fr}
+
+.mainmenu { grid-template-columns: 5fr 5fr 5fr 5fr}
+
+.desktopfont { font-size: 25px;}
+
+.imgalign { text-align: left;}
+
+.grid3 {
+  display: grid;
+  grid-template-columns: 3fr 3fr;
+}
+
+.grid5 {
+  display: grid;
+  grid-template-columns: 200px 200px 200px;
+}

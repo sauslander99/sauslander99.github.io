@@ -1,0 +1,10 @@
+img { max-width:100%; }
+.niceborder {
+  padding: 10px;
+  border: 1px solid #cccccc
+
+}
+.round {
+  border-radius: 50%;
+  padding: 10px;
+}
