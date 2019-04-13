@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 
 <head>
-	<meta https-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 	<title>pagePiling.js plugin - Horizontal scroll</title>
 	<meta name="author" content="Alvaro Trigo Lopez" />
 	<meta name="description" content="pagePiling.js plugin by Alvaro Trigo." />
@@ -12,10 +12,10 @@
 	<link rel="stylesheet" type="text/css" href="../jquery.pagepiling.css" />
 	<link rel="stylesheet" type="text/css" href="examples.css" />
 
-	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
 
-	<script type="text/javascript" src="../jquery.pagepiling.min.js"> </script>
-	<script type="text/javascript"</script>
+	<script type="text/javascript" src="../jquery.pagepiling.min.js"></script>
+	<script type="text/javascript">
 		$(document).ready(function() {
 			/*
 			* Plugin intialization
@@ -23,11 +23,11 @@
 	    	$('#pagepiling').pagepiling({
 	          	direction: 'horizontal',
 	    		menu: '#menu',
-	    		anchors: ['page1', 'page2', 'page3', 'page4','page5','page6' ],
-			    sectionsColor: ['white', '#80dfff', 'white', '#80dfff'],
+	    		anchors: ['page1', 'page2', 'page3', 'page4','page5','page6'],
+			    sectionsColor: ['white', '#80dfff', 'white', '#80dfff','white','#80dfff'],
 			    navigation: {
 			    	'position': 'right',
-			   		'tooltips': ['Page 1', 'Page 2', 'Page 3', 'Page 4','Page 5','Page 6']
+			   		'tooltips': ['Page 1', 'Page 2', 'Page 3', 'Pgae 4','Page 5','Page 6']
 			   	},
 			    afterRender: function(){
 			    	$('#pp-nav').addClass('custom');
@@ -83,59 +83,60 @@
 </head>
 <body>
 	<ul id="menu">
-		<li data-menuanchor="page1" class="active"><a href="#page1">Page 1</a></li>
-		<li data-menuanchor="page2"><a href="#page2">Page 2</a></li>
-		<li data-menuanchor="page3"><a href="#page3">Page 3</a></li>
-		<li data-menuanchor="page4"><a href="#page4">Page 4</a></li>
-		<li data-menuanchor="page5"><a href="#page5">Page 5</a></li>
-		<li data-menuanchor="page6"><a href="#page6">Page 6</a></li>
+		<li data-menuanchor="page1" class="active"><a href="#page1">Intro</a></li>
+		<li data-menuanchor="page2"><a href="#page2">Haifa</a></li>
+		<li data-menuanchor="page3"><a href="#page3">Tel Aviv</a></li>
+		<li data-menuanchor="page4"><a href="#page4">Jerusalem</a></li>
+		<li data-menuanchor="page5"><a href="#page5">The Dead Sea</a></li>
+		<li data-menuanchor="page6"><a href="#page6">Eilat</a></li>
 	</ul>
 
-	<div class="section">
-		<div class="intro">
-			<h1 style="color:#80dfff;">Israel</h1>
-			<img width="400" src="imgs/flag.png" alt="">
-			<p style="color:#80dfff;">Israel is a small country in the Middle East. Israel is a holy country that contains many holy cities to various religions around the globe. It is a tourist hotspot in the Middle East. </p>
-		</div>
-	</div>
+
 	<div id="pagepiling">
 	    <div class="section" id="section1">
-				<h1>Rosh HaNikra
-				</h1>
-	    	<img width="400" src="imgs/rh.jpg" alt="pagePiling" />
-				<p>Rosh Hanikra is Israel's northern-most attraction. The ocean eroded away at the walls in the caves, creating beautiful scenery. </p>
+	    	<img width="400" src="imgs/flag.jpg" alt=""/>
 			<br />
 
+	    	<h1>Israel</h1>
+			<p>Israel is a country located in the Middle East. It is a popular tourist destination because of the many holy cities located throughout the country.</p>
+
 	    </div>
-	    <div class="section" id="pagepiling section1" >
+	    <div class="section">
 	    	<div class="intro">
 	    		<h1>Haifa</h1>
 					<img width="400" src="imgs/haifa.jpg" alt="">
 	    		<p>Haifa is one of the northern-most cities in Israel. Haifa is Israel's largest trading port, as it is located on the water. One of Haifa's main attractins is the Bahai Gardens. </p>
 	    	</div>
 	    </div>
-			<div class="section" id="pagepiling">
-				<div class="intro">
-					<h1 style="color:#80dfff;">Tel Aviv</h1>
-					<img width="400" src="imgs/tel-aviv.jpg" alt="">
-					<p style="color:#80dfff;">Known as the "Miami of the Middle East", Tel Aviv is a great place or tourists to find night life in Israel. There are also several historic attractions, such as the Holocaust Museum</p>
-				</div>
-			</div>
-			<div class="section" id="pagepiling section1">
-	    	<div class="intro">
-	    		<h1>Jerusalem</h1>
-					<img width="400" src="imgs/jerusalem.jpg" alt="">
-	    		<p>Jerusalem is the holiest city in Israel. It is sacred to three religins, Judaism, Christianity, and Islam. There are many historic attractions to see throughout Jerusalem, including the Western Wall and the Temple of the Dome. </p>
-	    	</div>
-	    </div>
-			<div class="section" id="pagepiling section1">
-				<div class="intro">
-					<h1 style="color:#80dfff;">Dead Sea</h1>
+			<div class="section">
+ 			 <div class="intro">
+ 				 <h1 style="color:#80dfff">Tel Aviv</h1>
+				 <img width="400" src="imgs/tel-aviv.jpeg" alt="">
+ 				 <p style="color:#80dfff">Known as the "Miami of the Middle East", Tel Aviv is a great place or tourists to find night life in Israel. There are also several historic attractions, such as the Holocaust Museum.</p>
+ 			 </div>
+ 		 </div>
+			<div class="section">
+			 <div class="intro">
+				 <h1>Jerusalem</h1>
+				 <img width="400" src="imgs/jerusalem.jpg" alt="">
+				 <p>Jerusalem is the holiest city in Israel. It is sacred to three religins, Judaism, Christianity, and Islam. There are many historic attractions to see throughout Jerusalem, including the Western Wall and the Temple of the Dome.</p>
+			 </div>
+		 </div>
+		 <div class="section">
+			<div class="intro">
+				<h1 style="color:#80dfff">The Dead Sea</h1>
 					<img width="400" src="imgs/dead-sea.jpg" alt="">
-					<p style="color:#80dfff;">The Dead Sea is the lowest place on Earth. It is an extremely salty lake that is popular among tourists. People from all over the world come to The Dead Sea to float and bathe themselves in the nutrient-rich clay.</p>
-				</div>
+				<p style="color:#80dfff">he Dead Sea is the lowest place on Earth. It is an extremely salty lake that is popular among tourists. People from all over the world come to The Dead Sea to float and bathe themselves in the nutrient-rich clay.</p>
 			</div>
-
+		</div>
+		<div class="section">
+		 <div class="intro">
+			 <h1>Eilat</h1>
+			 <img width="400" src="imgs/eilat.jpeg" alt="">
+		 <p style="color:#80dfff">he Dead Sea is the lowest
+			 <p>Eilat is known as the Las Vegas of Israel. It is Israel's southern-most city, located on the Red Sea. With many casinos and resorts, Eilat is the perfect vacation spot for your trip to Israel. </p>
+		 </div>
+	 </div>
 	</div>
 
 </body>
