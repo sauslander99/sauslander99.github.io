@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html xmlns="http://www.w3.org/1999/xhtml">
+<html xmlns="https://www.w3.org/1999/xhtml">
 
 <head>
 	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
@@ -12,36 +12,33 @@
 	<link rel="stylesheet" type="text/css" href="../jquery.pagepiling.css" />
 	<link rel="stylesheet" type="text/css" href="examples.css" />
 
-	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
 
 	<script type="text/javascript" src="../jquery.pagepiling.min.js"></script>
 	<script type="text/javascript">
 		$(document).ready(function() {
-			/*
-			* Plugin intialization
-			*/
-	    	$('#pagepiling').pagepiling({
-	          	direction: 'horizontal',
-	    		menu: '#menu',
-	    		anchors: ['page1', 'page2', 'page3', 'page4','page5','page6'],
-			    sectionsColor: ['white', '#80dfff', 'white', '#80dfff','white','#80dfff'],
-			    navigation: {
-			    	'position': 'right',
-			   		'tooltips': ['Page 1', 'Page 2', 'Page 3', 'Pgae 4','Page 5','Page 6']
-			   	},
-			    afterRender: function(){
-			    	$('#pp-nav').addClass('custom');
-			    },
-			    afterLoad: function(anchorLink, index){
-			    	if(index>1){
-			    		$('#pp-nav').removeClass('custom');
-			    	}else{
-			    		$('#pp-nav').addClass('custom');
-			    	}
-			    } </script>
-			});
-	    });
-    </script>
+			$('#pagepiling').pagepiling({
+						direction: 'horizontal',
+				menu: '#menu',
+				anchors: ['page1', 'page2', 'page3', 'page4','page5','page6'],
+				sectionsColor: ['white', '#80dfff', 'white', '#80dfff','white','#80dfff'],
+				navigation: {
+					'position': 'right',
+					'tooltips': ['Page 1', 'Page 2', 'Page 3', 'Pgae 4','Page 5','Page 6']
+				},
+				afterRender: function(){
+					$('#pp-nav').addClass('custom');
+				},
+				afterLoad: function(anchorLink, index){
+					if(index>1){
+						$('#pp-nav').removeClass('custom');
+					}else{
+						$('#pp-nav').addClass('custom');
+					}
+				}
+		});
+		});
+	</script>
 
 
     <style>
